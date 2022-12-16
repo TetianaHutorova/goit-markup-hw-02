@@ -45,6 +45,9 @@
  .link{
    text-decoration: none;
  }
+ .list{
+  list-style: none;
+ }
  /*Я не задала кнопке цвет фона.*/
  .button{
    color: var(--accent-color);
