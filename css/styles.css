@@ -4,7 +4,8 @@
    --accent-color:#4D5AE5;
    --primary-white-color: #ffffff;
    --first-complementary-color:#F4F4FD;
-   --second-complementary-color:#E7E9FC
+   --second-complementary-color:#E7E9FC;
+   --main-font-size:16px;
 }
  body{
    background-color:var(--primary-white-color);
@@ -30,12 +31,12 @@
  .cite-nav{
    color: var(--title-text-color);
    font-weight: 600;
-   font-size: 16px;
+   font-size:var(--main-font-size);
    line-height: 1.5;
  }
  .contacts{
    color: var(--primary-text-color);
-   font-size: 16px;
+   font-size:var(--main-font-size);
    line-height: 1.5;
  }
  .link:hover,
@@ -45,15 +46,20 @@
  .link{
    text-decoration: none;
  }
+ .acquaintance{
+  background-color:var(--title-text-color);
+ }
  .list{
   list-style: none;
  }
  /*Я не задала кнопке цвет фона.*/
  .button{
    color: var(--accent-color);
+   background-color:var(--first-complementary-color) ;
+   border: 1px solid var(--second-complementary-color);
    font-family: inherit;
    font-weight: 600;
-   font-size: 16px;
+   font-size:var(--main-font-size);
    line-height: 1.2;
    display: flex;
    align-items: center;
@@ -65,23 +71,27 @@
    color: var(--primary-white-color);
    background-color:var(--accent-color);
  }
- h1{
+ .first-title{
    color: var(--primary-white-color);
    font-weight: 600;
    font-size: 56px;
    line-height: 1.1;
    text-align: center;
  }
-h2,h3{
+.second-title,
+.third-title{
    color: var(--title-text-color);
    font-weight: 600;
    font-size: 20px;
    line-height: 1.2;
 }
 .text{
-   font-size: 16px;
+   font-size:var(--main-font-size);
    line-height: 1.5;
 }
 .foot-text{
    color: var(--second-complementary-color);
+}
+.footer{
+    background-color:var(--title-text-color);
 }
