@@ -11,9 +11,19 @@
    background-color:var(--primary-white-color);
    color: var(--primary-text-color);
    font-family:Roboto,sans-serif;
-   letter-spacing: 0.02em;
-
  }
+ .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
  .logo{
    color: var(--title-text-color);
    font-family:Raleway, sans-serif;
@@ -32,11 +42,13 @@
    color: var(--title-text-color);
    font-weight: 600;
    font-size:var(--main-font-size);
+   letter-spacing: 0.02em;
    line-height: 1.5;
  }
  .contacts{
    color: var(--primary-text-color);
    font-size:var(--main-font-size);
+   letter-spacing: 0.02em;
    line-height: 1.5;
  }
  .link:hover,
@@ -52,7 +64,6 @@
  .list{
   list-style: none;
  }
- /*Я не задала кнопке цвет фона.*/
  .button{
    color: var(--accent-color);
    background-color:var(--first-complementary-color) ;
@@ -75,6 +86,7 @@
    color: var(--primary-white-color);
    font-weight: 600;
    font-size: 56px;
+   letter-spacing: 0.02em;
    line-height: 1.1;
    text-align: center;
  }
@@ -83,14 +95,17 @@
    color: var(--title-text-color);
    font-weight: 600;
    font-size: 20px;
+   letter-spacing: 0.02em;
    line-height: 1.2;
 }
 .text{
    font-size:var(--main-font-size);
+   letter-spacing: 0.02em;
    line-height: 1.5;
 }
 .foot-text{
    color: var(--second-complementary-color);
+   letter-spacing: 0.02em;
 }
 .footer{
     background-color:var(--title-text-color);
